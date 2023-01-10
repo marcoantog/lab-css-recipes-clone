@@ -1,9 +1,92 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 0;
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+  font-family: 'Poppins';
+  color: rgb(86, 85, 85);
 }
-/*Import the font and set the default size*/
-html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+
+hr {
+    margin-top: 35px;
+    width: 50%;
+}
+
+header {
+    position: relative;
+    overflow: hidden;
+      height: 700px;
+       max-height: 900px;
+}
+
+#soup {
+  display: block;
+  width: 100%;
+  height: auto;
+  position: absolute;
+  bottom: 0;
+}
+
+.center {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 70px;
+    color: white;
+    letter-spacing: 1px;
+  }
+
+  .recipe {
+    margin-top: 35px;
+    position: relative;
+  }
+  
+  #grandma {
+    text-align: justify;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+
+  .recipeimg {
+    margin-top: 35px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+  }
+  
+  ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 1em;
+  }
+
+  ul > li:before {
+    display: inline-block;
+    content: "-";
+    width: 1em;
+    margin-left: -1em;
+}
+
+h3 {
+    margin-left: auto;
+    display: block;
+    width: 75%;
+    font-weight: 500;
+}
+
+#ingredients {
+    margin-left: auto;
+    display: block;
+    width: 75%;
+}
+
+#directions {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 50%;
+    list-style: none;
 }
